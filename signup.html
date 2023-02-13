@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>create an account-web shop</title>
+    </head>
+    <body>
+        <h1>Web shop</h1>
+        <h2>Create an account</h2>
+        <form action="login.html" method="get">
+            <div>
+                <label for="fname">First name</label>
+                <input type="text" name="name" id="fname" placeholder="First name" required> 
+            </div>
+            <div>
+                <label for="lname">Last name</label>
+                <input type="text" name="name" id="lname" placeholder="Last name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="mail" id="email" placeholder="exemple@exemple.com" required>
+            </div>
+            <div>
+                <label for="uname">User name</label>
+                <input type="text" name="name" id="uname" placeholder="User name" required>
+            </div>
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" name="password" id="pass" placeholder="Password" minlength="8" pattern="[0-9a-zA-Z+.]" required>
+            </div>
+            <div>
+                <button type="submit">SignUp</button>
+            </div>
+        </form>
+        <!--pattern za dodavanje specijalnih znakovau npr. input password, phone, username-->
+    </body>
+</html>

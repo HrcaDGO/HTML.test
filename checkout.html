@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>checkout-webshop</title>
+    </head>
+    <body>
+        <h1>Check out</h1>
+        <form action="products.html">
+            <div>
+                <label for="full-name">Full name</label>
+                <input type="text" name="full-name" id="full-name" placeholder="Full name" required>
+            </div>
+            <div>
+                <label for="address">Adress</label>
+                <input type="text" name="adr" id="address" placeholder="Address" required>
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" name="town" id="city" placeholder="City" required>
+            </div>
+            <div>
+                <label for="post">Postal code</label>
+                <input type="number" name="code" id="post" min="0" required>
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <input type="text" name="state" id="country" placeholder="Country" required>
+            </div>
+            <div>
+                <label for="check"> I accept on terms and condition</label>
+                <input type="checkbox" name="checkbox" id="check" required>
+            </div>
+            <div>
+                <label for="pay">Choose an option of paying:</label>
+                <br>
+                <label for="visa">Card</label>
+                <input type="radio" name="choose" id="visa">
+                <br>
+                <label for="cash">Cash on delivery</label>
+                <input type="radio" name="choose" id="cash">
+            </div>
+            <div>
+                <button>Buy</button>
+            </div>
+        </form>
+    </body>
+</html>
